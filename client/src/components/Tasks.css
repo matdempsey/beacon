@@ -1,0 +1,10 @@
+.task-list {
+  padding: 0px 8px 8px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.task--dragging-state {
+  opacity: 70%;
+}

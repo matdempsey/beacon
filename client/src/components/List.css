@@ -1,0 +1,22 @@
+.list {
+  flex: 1;
+  min-height: 180px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+}
+
+.list-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 0px 8px 8px;
+}
+
+.list-header__text {
+  color: #525252;
+  font-weight: 700;
+}
+
+.list--drag-over {
+  background-color: #daf2f8;
+}

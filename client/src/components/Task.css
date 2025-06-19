@@ -1,0 +1,7 @@
+.task {
+  cursor: grab;
+  padding: 8px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px #0000001a;
+}
