@@ -1,0 +1,22 @@
+{
+  "name": "beacon",
+  "version": "1.0.0",
+  "description": "Beacon App",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run dev --prefix client\" \"npm run start --prefix server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matdempsey/beacon.git"
+  },
+  "author": "Mathew Dempsey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matdempsey/beacon/issues"
+  },
+  "homepage": "https://github.com/matdempsey/beacon#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
